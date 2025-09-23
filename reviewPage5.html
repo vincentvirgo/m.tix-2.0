@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food and Drinks Menu</title>
+    <link rel="stylesheet" href="css/review5.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-flex">
+          <a href="index.html" class="back-button">
+            <img src="assets/order/Vector.png" />
+          </a>
+          <div class="logo">
+            <h1 class="logo1">m.tix</h1>
+            <h4 class="logo2">2.0</h4>
+          </div>
+        </div>
+        <div class="details">
+          <h3>Movie Reviews</h3>
+          <h4>All reviews will be shown here</h4>
+        </div>
+      </header>
+      <div class="addReview-container">
+        <button class="add-review" onclick="openModal()">
+          <p>Tambah Ulasan</p>
+          <img src="./assets/review/plus.svg" alt="plus" />
+        </button>
+      </div>
+      <div class="container-card">
+        <div class="review-card">
+          <div class="user">
+            <img src="./assets/review/profpic.png" alt="profpic" />
+            <div class="user-detail">
+              <p>User 27022xxxx1</p>
+              <p>2 months ago</p>
+            </div>
+          </div>
+          <div class="card-text">
+            <p class="movie-title">AVENGERS: ENDGAME</p>
+            <div class="rate-movie">
+              <img src="./assets/review/starRating.png" alt="star" />
+              <p>9.7</p>
+            </div>
+            <p class="review-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in . . . <span>See More</span>
+            </p>
+          </div>
+          <div class="container-footer">
+            <div class="footer-card">
+              <div class="action-card">
+                <div class="comment">
+                  <img src="./assets/review/commentIcon.png" alt="comment" />
+                  <p>276</p>
+                </div>
+                <div class="share">
+                  <img src="./assets/review/shareIcon.png" alt="share" />
+                  <p>23</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="user">
+            <img src="./assets/review/profpic.png" alt="profpic" />
+            <div class="user-detail">
+              <p>User 27022xxxx1</p>
+              <p>2 months ago</p>
+            </div>
+          </div>
+          <div class="card-text">
+            <p class="movie-title">AVENGERS: ENDGAME</p>
+            <div class="rate-movie">
+              <img src="./assets/review/starRating.png" alt="star" />
+              <p>9.2</p>
+            </div>
+            <p class="review-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in . . . <span>See More</span>
+            </p>
+          </div>
+          <div class="container-footer">
+            <div class="footer-card">
+              <div class="action-card">
+                <div class="comment">
+                  <img src="./assets/review/commentIcon.png" alt="comment" />
+                  <p>276</p>
+                </div>
+                <div class="share">
+                  <img src="./assets/review/shareIcon.png" alt="share" />
+                  <p>23</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div id="reviewModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Tambah Ulasan</h2>
+        <form id="reviewForm">
+          <p>AVENGERS: ENDGAME</p>
+          <div class="card">
+            <div class="card-star">
+              <span onclick="gfg(1)" class="star">★ </span>
+              <span onclick="gfg(2)" class="star">★ </span>
+              <span onclick="gfg(3)" class="star">★ </span>
+              <span onclick="gfg(4)" class="star">★ </span>
+              <span onclick="gfg(5)" class="star">★ </span>
+              <h3 id="output">Rating is: 0/10</h3>
+            </div>
+          </div>
+          <label for="review" class="label-review">Ulasan:</label>
+          <br />
+          <textarea id="review" name="review" placeholder="tuliskan ulasanmu!" required></textarea><br /><br />
+          <button type="submit">Kirim Ulasan</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/review.js"></script>
+  </body>
+</html>

@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Baloo Bhai 2", Arial, sans-serif;
+  max-width: 480px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom, #ffc94a 6%, #ffeec7 100%);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.logo {
+  display: flex;
+  align-items: end;
+}
+
+.logo1 {
+  font-size: 36px;
+}
+
+.logo2 {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.details h4 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-color: #ffcc00;
+  padding: 40px 18px;
+  background-repeat: no-repeat;
+  background-image: url(../assets/review/vinabg.jpeg);
+  background-size: cover;
+}
+
+.back-button {
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+  flex: 1;
+}
+
+.location {
+  font-size: 14px;
+  text-align: right;
+}
+
+.logo h1 {
+  color: white;
+}
+
+.details h3 {
+  color: white;
+}
+
+.user {
+  border-bottom: 1px solid #a5a5a5;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user p:first-child {
+  font-weight: 500;
+  font-size: 11px;
+}
+.user p:last-child {
+  color: #939393;
+  font-size: 8px;
+}
+.container-card {
+  padding: 20px;
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-text .movie-title {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-text .rate-movie {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.card-text .rate-movie p {
+  font-size: 15.6px;
+  font-weight: 600;
+}
+
+.review-text {
+  font-weight: 600;
+  font-size: 12px;
+}
+.review-text span {
+  color: #939393;
+}
+.container-footer {
+  border-top: 1px solid #a5a5a5;
+}
+
+.action-card {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  padding: 20px;
+}
+
+.action-card p {
+  text-align: center;
+  color: #939393;
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.addReview-container {
+  display: flex;
+  justify-content: end;
+  padding: 20px 20px 5px 20px;
+}
+
+.add-review img {
+  width: 20px;
+}
+
+.add-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 14px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 1px 4px #a5a5a5;
+}
+
+.add-review p {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.card {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.star {
+  font-size: 34px;
+  cursor: pointer;
+}
+
+#output {
+  font-size: 14px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.card-star span {
+  user-select: none;
+}
+
+.one {
+  color: rgb(255, 0, 0);
+}
+
+.two {
+  color: rgb(255, 106, 0);
+}
+
+.three {
+  color: rgb(255, 181, 9);
+}
+
+.four {
+  color: rgb(250, 188, 42);
+}
+
+.five {
+  color: rgb(255, 206, 91);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 30% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.modal-content p {
+  font-weight: 600;
+  text-align: center;
+  margin: 15px 0 0 0;
+  font-size: 18px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.label-review {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#review {
+  width: 100%;
+  border: 1px solid #a5a5a5;
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: 10vh;
+}
+
+#review:focus {
+  outline: none;
+}
+
+#reviewForm button {
+  background-color: #ffc94a;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 12px;
+}

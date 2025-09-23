@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Baloo Bhai 2", Arial, sans-serif;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom, #ffc94a 6%, #ffeec7 100%);
+  background-repeat: no-repeat;
+}
+
+.order-history-container {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  margin-left: 10px;
+}
+h5 {
+  font-size: 25px;
+  color: white;
+}
+h4 {
+  color: white;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  padding-top: 40px;
+}
+
+.back-button {
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info-text {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #666;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs div:first-child {
+  margin-right: 20px;
+}
+
+.tab.active {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-details {
+  flex-grow: 1;
+}
+
+.order-title {
+  font-weight: bold;
+  color: grey;
+  /* margin-bottom: 1px; */
+}
+
+.order-item {
+  font-size: 16px;
+  font-weight: bold;
+  /* margin-bottom: 2px; */
+}
+
+.order-date-rill {
+  font-weight: bold;
+  color: #000;
+}
+
+.order-date {
+  /* margin-bottom: 10px; */
+  color: #888;
+}
+
+.order-more {
+  color: grey;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.imgpanah {
+  width: 15px;
+  height: 15px;
+}
+
+.order-qr img {
+  width: 80px;
+  height: 80px;
+}
+
+.check_box img {
+  width: 100px;
+  height: 100px;
+}

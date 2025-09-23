@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Baloo Bhai 2", Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 20px;
+  background: rgb(255, 202, 75);
+  background: linear-gradient(to bottom, #ffc94a 6%, #ffeec7 100%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.back-button {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.logo2 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  margin: 5px 0;
+}
+
+.user-info p strong {
+  font-size: 24px;
+  color: #fff;
+}
+
+.container-account {
+  margin-bottom: 20px;
+}
+.container-account p {
+  color: #727272;
+  font-size: 13px;
+  margin-bottom: 30px;
+  margin-top: -5px;
+}
+.container-account img {
+  margin-top: 20px;
+}
+
+.container-account img {
+  margin-right: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.phone-num {
+  display: flex;
+  gap: 10px;
+  max-width: 100%;
+}
+.phone-num input:first-child {
+  width: 40px;
+}
+.phone-num input:last-child {
+  width: 100%;
+}
+
+label {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid #a5a5a5;
+  font-weight: 600;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-group span {
+  color: red;
+}

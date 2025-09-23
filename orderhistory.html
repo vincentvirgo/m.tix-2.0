@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order History</title>
+    <link rel="stylesheet" href="css/order.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="order-history-container">
+      <header>
+        <a href="index.html" target="_self">
+          <div class="back-button">
+            <img src="assets/order/Vector.png" />
+          </div>
+        </a>
+        <h1>m.tix</h1>
+        <h4>2.0</h4>
+      </header>
+      <h5>Order History</h5>
+      <div class="info-text">All order history will be shown here</div>
+      <div class="tabs">
+        <div class="tab active" onclick="showTab('active-orders')">Active Orders</div>
+        <div class="tab" onclick="showTab('recent-transactions')">Recent Transactions</div>
+      </div>
+      <div class="tab-content" id="active-orders">
+        <a href="./detailOrderVina.html">
+          <div class="order-card">
+            <div class="order-details">
+              <div class="order-title">Movie</div>
+              <div class="order-item">Vina: Sebelum 7 Hari</div>
+              <div class="order-date">Order Date</div>
+              <div class="order-date-rill">29 May 2024</div>
+              <div class="order-more">
+                <p>Tap to see more details</p>
+                <img class="imgpanah" src="assets/order/Vector panah kecil.png" />
+              </div>
+            </div>
+            <div class="order-qr">
+              <img src="assets/order/QR Code 1.png" alt="QR Code" />
+            </div>
+          </div>
+        </a>
+        <a href="detailOrderPaketB.html">
+          <div class="order-card">
+            <div class="order-details">
+              <div class="order-title">Menu</div>
+              <div class="order-item">Paket Promo B</div>
+              <div class="order-date">Order Date</div>
+              <div class="order-date-rill">12 Dec 2023</div>
+              <div class="order-more">
+                <p>Tap to see more details</p>
+                <img class="imgpanah" src="assets/order/Vector panah kecil.png" />
+              </div>
+            </div>
+            <div class="order-qr">
+              <img src="assets/order/QR Code 2.png" alt="QR Code" />
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="tab-content" id="recent-transactions" style="display: none">
+        <a href="detailOrderAvenger.html">
+          <div class="order-card">
+            <div class="order-details">
+              <div class="order-title">Movie</div>
+              <div class="order-item">Avangers: End Game</div>
+              <div class="order-date">Order Date</div>
+              <div class="order-date-rill">27 April 2019</div>
+              <div class="order-more">
+                <p>Tap to see more details</p>
+                <img class="imgpanah" src="assets/order/Vector panah kecil.png" />
+              </div>
+            </div>
+            <div class="Check_box">
+              <img src="assets/order/Check_box.png" alt="QR Code" />
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <script src="js/order.js"></script>
+  </body>
+</html>

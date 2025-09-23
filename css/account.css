@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Baloo Bhai 2", Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 20px;
+  background: rgb(255, 202, 75);
+  background: linear-gradient(to bottom, #ffc94a 6%, #ffeec7 100%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.back-button {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.logo2 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+.user-info p strong {
+  font-size: 24px;
+  color: #fff;
+}
+
+.user-info p {
+  margin: 5px 0;
+}
+
+.search-box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search-box img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+.section-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  cursor: pointer;
+}
+
+.item img {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.item p {
+  margin: 0;
+}
+
+.item:hover {
+  background-color: #f0f0f0;
+}
+
+.item i {
+  color: #888;
+}
+
+.item:hover i {
+  color: #333;
+}
+
+.account-info {
+  margin-top: 20px;
+  color: #fff;
+}
