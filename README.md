@@ -22,7 +22,7 @@ The application interface covers the following key functionalities:
 </div>
 
 ### 📝 Movie Reviews 
-
+<img src="image/2.1.png" width="250" alt=image/1.1.png> <img src="image/2.2.png" width="250" alt=image/1.2.png> <img src="image/2.3.png" width="250" alt=image/1.3.png>
 
 ### 🧾 Order History (`orderhistory.html`)
 * **Tabbed View:** Separates orders into:
