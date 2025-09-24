@@ -6,7 +6,7 @@ This repository contains the front-end source code for **m.tix 2.0**, a redesign
 
 The application interface covers the following key functionalities:
 
-### 🏠 Homepage (`index.html`)
+### 🏠 Homepage
 * **Dynamic Banner Carousel:** Displays promotional offers and discounts (e.g., up to 50%, Buy 1 Get 1) with automatic sliding and touch/drag functionality.
 * **Now Playing Carousel:** Horizontal scrollable list of current movies, including:
     * *DESPICABLE ME 4*
@@ -16,6 +16,9 @@ The application interface covers the following key functionalities:
     * *Avengers: End Game*
 * **News Section:** Displays recent cinema-related news articles.
 * **Persistent Navigation Bar:** Links to Home, Food, Order History, and Account sections.
+  ![Home Page](image/1.1.png)
+  ![Home Page](image/1.2.png)
+  ![Home Page](image/1.3.png)
 
 ### 🍿 Food & Drinks Menu (`food.html`)
 * **Tabbed Navigation:** Easily switch between different product categories:
