@@ -12,7 +12,7 @@ The application interface covers the following key functionalities:
 
 ### 🍿 Food & Drinks Menu
 <div style="display: flex; flex-direction: row; justify-content: start; gap: 10px; margin-bottom: 10px; flex-wrap: wrap;">
-  <img src="image/3.1.png" width="250" alt="Promo Menu 1">
+  <img src="image/3.png" width="250" alt="Promo Menu 1">
   <img src="image/3.2.png" width="250" alt="Promo Menu 2">
 </div>
 
