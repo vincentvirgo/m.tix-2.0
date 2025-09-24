@@ -24,28 +24,15 @@ The application interface covers the following key functionalities:
 ### 📝 Movie Reviews 
 <img src="image/2.1.png" width="250" alt=image/1.1.png> <img src="image/2.2.png" width="250" alt=image/1.2.png> <img src="image/2.3.png" width="250" alt=image/1.3.png>
 
-### 🧾 Order History (`orderhistory.html`)
+### 🧾 Order History 
 <img src="image/4.1.png" width="250" alt=image/1.1.png> <img src="image/4.2.png" width="250" alt=image/1.2.png> <img src="image/4.3.png" width="250" alt=image/1.3.png>
+<img src="image/5.1.png" width="250" alt=image/1.1.png> <img src="image/5.2.png" width="250" alt=image/1.2.png> 
+### 👤 Account Management 
+<img src="image/6.1.png" width="250" alt=image/1.1.png> <img src="image/6.2.png" width="250" alt=image/1.2.png> <img src="image/6.3.png" width="250" alt=image/1.3.png>
 
-### 👤 Account Management (`account.html`)
-* **User Overview:** Displays logged-in user details (Name: User27022, Phone: +6281212345678, Email: User27022@gmail.com).
-* **General Settings:**
-    * Account Information (`accountInformation.html`)
-    * Inbox (`inbox.html`)
-    * Vouchers (`voucher.html`)
-* **Payment Settings:**
-    * Add Payment Method (`paymentMethod.html`)
-    * M.Points
-* **Privacy:**
-    * Security
-    * Two Factor Authentication
-    * Delete Account
 
-### 💳 Payment Methods (`paymentMethod.html`)
-* Lists supported payment categories:
-    * **E-Money:** Gopay, OVO, DANA, SeaBank.
-    * **Bank:** BCA, BNI, Mandiri.
-    * **Card:** Credit Card, Debit Card.
+### 💳 Payment Methods 
+<img src="image/7.1.png" width="250" alt=image/1.1.png> <img src="image/7.2.png" width="250" alt=image/1.2.png> 
 
 ## 🛠️ Technologies Used
 
