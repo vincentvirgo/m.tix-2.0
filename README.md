@@ -41,54 +41,21 @@ The application interface covers the following key functionalities:
 - News Section: A scrollable section at the bottom of the page that displays news related to films that are current, upcoming, or have already aired.   
 - Persistent Navigation Bar: A sticky bottom navigation bar allowing easy access to the Home, Food and Beverage, Order, and Settings pages.   
 
-2. Food Order Page
-The Food Order Page (food.html) facilitates the purchase of cinema concessions:
+### Food Order Page
+- Location Information: Displays the cinema location and its closing time.   
+- Tabbed Menu Categories: The menu is organized into navigable tabs: Promo, Combo, Light Meal, and Drinks.   
+- Product Details: Each menu item displays its name (e.g., Paket Promo A), description, price (Rp xxx.xxx), and a "Pesan" (Order) button.   
 
-[cite_start]
+### Order History Page
+- Tabbed History: Orders are separated into two distinct tabs:   
+- Active Orders: Shows current, active, or pending orders, which can be movie tickets, food, or drinks.   
+- Each active order includes a QR Code for quick retrieval or ticket scanning.   
+- Recent Transactions: Displays the history of all completed transactions.   
+- Detailed Order View: Users can view details for each transaction, including the order date, time, seat number (for movies), and cinema location.   
 
-Location Information: Displays the cinema location and its closing time.   
-
-[cite_start]
-
-Tabbed Menu Categories: The menu is organized into navigable tabs: Promo, Combo, Light Meal, and Drinks.   
-
-[cite_start]
-
-Product Details: Each menu item displays its name (e.g., Paket Promo A), description, price (Rp xxx.xxx), and a "Pesan" (Order) button.   
-
-3. Order History Page
-The Order History Page (orderhistory.html) organizes user transactions:
-
-[cite_start]
-
-Tabbed History: Orders are separated into two distinct tabs:   
-
-[cite_start]
-
-Active Orders: Shows current, active, or pending orders, which can be movie tickets, food, or drinks.   
-
-[cite_start]Each active order includes a 
-
-QR Code for quick retrieval or ticket scanning.   
-
-[cite_start]
-
-Recent Transactions: Displays the history of all completed transactions.   
-
-[cite_start]
-
-Detailed Order View: Users can view details for each transaction, including the order date, time, seat number (for movies), and cinema location.   
-
-4. My Account Page
-The My Account Page (account.html) is the hub for user settings and profile management:
-
-[cite_start]
-
-General Account Overview: Displays the user's name, phone number, and email upon entry.   
-
-[cite_start]
-
-Search Functionality: A dedicated input box for searching within the account menu.   
+### My Account Page
+- General Account Overview: Displays the user's name, phone number, and email upon entry.   
+- Search Functionality: A dedicated input box for searching within the account menu.   
 
 
 
