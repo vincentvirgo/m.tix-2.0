@@ -16,9 +16,9 @@ The application interface covers the following key functionalities:
     * *Avengers: End Game*
 * **News Section:** Displays recent cinema-related news articles.
 * **Persistent Navigation Bar:** Links to Home, Food, Order History, and Account sections.
-  ![Home Page](image/1.1.png)
-  ![Home Page](image/1.2.png)
-  ![Home Page](image/1.3.png)
+![Home Page](image/1.1.png){: width=300 height=200 }
+![Home Page](image/1.2.png){: width=300 height=200 }
+![Home Page](image/1.3.png){: width=300 height=200 }
 
 ### 🍿 Food & Drinks Menu (`food.html`)
 * **Tabbed Navigation:** Easily switch between different product categories:
