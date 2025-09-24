@@ -11,8 +11,15 @@ The application interface covers the following key functionalities:
 <img src="image/1.1.png" width="250" alt=image/1.1.png> <img src="image/1.2.png" width="250" alt=image/1.2.png> <img src="image/1.3.png" width="250" alt=image/1.3.png>
 
 ### 🍿 Food & Drinks Menu
-<img src="image/3.png" width="250" alt=image/3.png> <img src="image/3.2.png" width="250" alt=image/3.2.png>
-<img src="image/3.3.png" width="250" alt=image/3.3.png> <img src="image/3.4.png" width="250" alt=image/3.4.png>
+<div style="display: flex; flex-direction: row; justify-content: start; gap: 10px; margin-bottom: 10px; flex-wrap: wrap;">
+  <img src="image/3.1.png" width="250" alt="Promo Menu 1">
+  <img src="image/3.2.png" width="250" alt="Promo Menu 2">
+</div>
+
+<div style="display: flex; flex-direction: row; justify-content: start; gap: 10px; flex-wrap: wrap;">
+  <img src="image/3.3.png" width="250" alt="Promo Menu 3">
+  <img src="image/3.4.png" width="250" alt="Promo Menu 4">
+</div>
 
 ### 📝 Movie Reviews 
 
