@@ -11,7 +11,8 @@ The application interface covers the following key functionalities:
 <img src="image/1.1.png" width="250" alt=image/1.1.png> <img src="image/1.2.png" width="250" alt=image/1.2.png> <img src="image/1.3.png" width="250" alt=image/1.3.png>
 
 ### 🍿 Food & Drinks Menu (`food.html`)
-<img src="image/2.1.png" width="250" alt=image/2.1.png> <img src="image/2.2.png" width="250" alt=image/2.2.png> <img src="image/2.3.png" width="250" alt=image/2.3.png>
+<img src="image/3.png" width="250" alt=image/3.png> <img src="image/3.2.png" width="250" alt=image/3.2.png> 
+<img src="image/3.3.png" width="250" alt=image/3.3.png> <img src="image/3.4.png" width="250" alt=image/3.4.png>
 
 ### 📝 Movie Reviews (e.g., `reviewPage.html`)
 * Allows users to **"Tambah Ulasan"** (Add Review) via a modal window, which includes a 5-star rating system (displaying a final score out of 10) and a text area for the review body.
