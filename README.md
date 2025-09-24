@@ -10,8 +10,8 @@ The application interface covers the following key functionalities:
 
 <img src="image/1.1.png" width="250" alt=image/1.1.png> <img src="image/1.2.png" width="250" alt=image/1.2.png> <img src="image/1.3.png" width="250" alt=image/1.3.png>
 
-### 🍿 Food & Drinks Menu (`food.html`)
-<img src="image/3.png" width="250" alt=image/3.png> <img src="image/3.2.png" width="250" alt=image/3.2.png> /n
+### 🍿 Food & Drinks Menu
+<img src="image/3.png" width="250" alt=image/3.png> <img src="image/3.2.png" width="250" alt=image/3.2.png> \n
 <img src="image/3.3.png" width="250" alt=image/3.3.png> <img src="image/3.4.png" width="250" alt=image/3.4.png>
 
 ### 📝 Movie Reviews (e.g., `reviewPage.html`)
