@@ -7,25 +7,11 @@ This repository contains the front-end source code for **m.tix 2.0**, a redesign
 The application interface covers the following key functionalities:
 
 ### 🏠 Homepage
-* **Dynamic Banner Carousel:** Displays promotional offers and discounts (e.g., up to 50%, Buy 1 Get 1) with automatic sliding and touch/drag functionality.
-* **Now Playing Carousel:** Horizontal scrollable list of current movies, including:
-    * *DESPICABLE ME 4*
-    * *THE BEEKEEPER*
-    * *VINA: SEBELUM 7 HARI*
-    * *KINGDOM OF THE PLANET OF THE APES*
-    * *Avengers: End Game*
-* **News Section:** Displays recent cinema-related news articles.
-* **Persistent Navigation Bar:** Links to Home, Food, Order History, and Account sections.
 
 <img src="image/1.1.png" width="250" alt=image/1.1.png> <img src="image/1.2.png" width="250" alt=image/1.2.png> <img src="image/1.3.png" width="250" alt=image/1.3.png>
 
 ### 🍿 Food & Drinks Menu (`food.html`)
-* **Tabbed Navigation:** Easily switch between different product categories:
-    * **Promo** (e.g., Paket Promo A-G)
-    * **Combo** (e.g., Paket Combo A-G)
-    * **Light Meal** (e.g., Paket Light Meal A-G)
-    * **Drinks** (e.g., Paket Minuman A-G)
-* Each item includes a placeholder price and a "Pesan" (Order) button.
+<img src="image/2.1.png" width="250" alt=image/2.1.png> <img src="image/2.2.png" width="250" alt=image/2.2.png> <img src="image/2.3.png" width="250" alt=image/2.3.png>
 
 ### 📝 Movie Reviews (e.g., `reviewPage.html`)
 * Allows users to **"Tambah Ulasan"** (Add Review) via a modal window, which includes a 5-star rating system (displaying a final score out of 10) and a text area for the review body.
