@@ -34,22 +34,26 @@ A redesigned user interface for a movie ticketing and in-cinema concessions orde
 ## ✨ Features
 
 The application interface covers the following key functionalities:
+. Home Page
+The Home Page (index.html) is designed to be rich with information and features:
 
-## 🛠️ Technologies Used
-###Home Page
-*The Home Page (index.html) is designed to be rich with information and features:
-
+[cite_start]
 
 Promotional Banner Carousel: Displays various current food and beverage promotions and discounts.   
 
+[cite_start]
 
 Now Playing Film Carousel: A horizontally scrollable list of current movies, providing information like the movie title and its rating.   
 
+[cite_start]
+
 Movie Review Integration: Tapping a movie poster redirects the user to the dedicated review page where they can read existing reviews and submit their own rating and review.   
 
+[cite_start]
 
 News Section: A scrollable section at the bottom of the page that displays news related to films that are current, upcoming, or have already aired.   
 
+[cite_start]
 
 Persistent Navigation Bar: A sticky bottom navigation bar allowing easy access to the Home, Food and Beverage, Order, and Settings pages.   
 
@@ -102,6 +106,9 @@ General Account Overview: Displays the user's name, phone number, and email upon
 
 Search Functionality: A dedicated input box for searching within the account menu.   
 
+
+
+## 🛠️ Technologies Used
 
 * **HTML5**
 * **CSS3** (Custom stylesheets for all pages)
