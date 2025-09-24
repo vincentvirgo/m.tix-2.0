@@ -25,9 +25,7 @@ The application interface covers the following key functionalities:
 <img src="image/2.1.png" width="250" alt=image/1.1.png> <img src="image/2.2.png" width="250" alt=image/1.2.png> <img src="image/2.3.png" width="250" alt=image/1.3.png>
 
 ### 🧾 Order History (`orderhistory.html`)
-* **Tabbed View:** Separates orders into:
-
-* **Order Detail Screens:** Dedicated pages for viewing detailed ticket/order information and QR codes (`detailOrderVina.html`, `detailOrderPaketB.html`).
+<img src="image/4.1.png" width="250" alt=image/1.1.png> <img src="image/4.2.png" width="250" alt=image/1.2.png> <img src="image/4.3.png" width="250" alt=image/1.3.png>
 
 ### 👤 Account Management (`account.html`)
 * **User Overview:** Displays logged-in user details (Name: User27022, Phone: +6281212345678, Email: User27022@gmail.com).
